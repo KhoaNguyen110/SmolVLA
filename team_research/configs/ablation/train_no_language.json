@@ -1,0 +1,42 @@
+{
+  "dataset": {
+    "repo_id": "lerobot/pusht",
+    "root": null,
+    "episodes": null,
+    "revision": null,
+    "use_imagenet_stats": true,
+    "streaming": false
+  },
+  "policy": {
+    "type": "smolvla",
+    "device": "cuda",
+    "use_amp": true,
+    "push_to_hub": false
+  },
+  "output_dir": "team_research/results/train/smolvla_no_language_150k",
+  "job_name": "smolvla_no_language_150k",
+  "resume": false,
+  "seed": 42,
+  "num_workers": 4,
+  "batch_size": 10,
+  "steps": 150000,
+  "eval_freq": 2000,
+  "log_freq": 100,
+  "save_checkpoint": true,
+  "save_freq": 2000,
+  "use_policy_training_preset": true,
+  "wandb": {
+    "enable": true,
+    "project": "smolvla-mini-implement-final",
+    "entity": "ndkhoa231-tr-ng-i-h-c-khoa-h-c-t-nhi-n-hqg-hcm"
+  },
+  "eval": {
+    "n_episodes": 50,
+    "batch_size": 10
+  },
+
+  "ablation": {
+    "name": "no_language",
+    "instruction_mode": "empty_string"
+  }
+}

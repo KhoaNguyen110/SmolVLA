@@ -1,0 +1,16 @@
+{
+  "env": {
+    "type": "pusht"
+  },
+  "policy": {
+    "type": "smolvla",
+    "device": "cuda",
+    "use_amp": true,
+    "pretrained_path": "team_research/results/train/smolvla_baseline_40k/checkpoints/035000/pretrained_model"
+  },
+  "eval": {
+    "n_episodes": 10,
+    "batch_size": 8
+  },
+  "output_dir": "team_research/results/eval/smolvla_baseline_35k"
+}

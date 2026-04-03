@@ -1,0 +1,98 @@
+{
+  "per_task": [
+    {
+      "task_group": "pusht",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          59.88902304936687,
+          0.0,
+          47.15566385210532,
+          74.88867332458699,
+          35.26272900512403,
+          0.0,
+          21.38094426549694,
+          66.1896044763577,
+          13.961888421389386,
+          59.713352303538755
+        ],
+        "max_rewards": [
+          0.5795283459081694,
+          0.0,
+          0.547235398486801,
+          0.7107704825431695,
+          0.5412089589035571,
+          0.0,
+          0.33823609162330376,
+          0.5633061832571014,
+          0.32660232691948304,
+          0.5704640653769556
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "video_paths": [
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_0.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_1.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_2.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_3.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_4.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_5.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_6.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_7.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_8.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_9.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "pusht": {
+      "avg_sum_reward": 37.8441878697966,
+      "avg_max_reward": 0.4177351853018541,
+      "pc_success": 0.0,
+      "n_episodes": 10,
+      "video_paths": [
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_0.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_1.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_2.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_3.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_4.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_5.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_6.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_7.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_8.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_9.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 37.8441878697966,
+    "avg_max_reward": 0.4177351853018541,
+    "pc_success": 0.0,
+    "n_episodes": 10,
+    "eval_s": 30.026612997055054,
+    "eval_ep_s": 3.0026612997055055,
+    "video_paths": [
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_0.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_1.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_2.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_3.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_4.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_5.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_6.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_7.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_8.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_40k\\videos\\pusht_0\\eval_episode_9.mp4"
+    ]
+  }
+}

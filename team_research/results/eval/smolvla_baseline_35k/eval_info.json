@@ -1,0 +1,98 @@
+{
+  "per_task": [
+    {
+      "task_group": "pusht",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          28.184785813148483,
+          0.0,
+          36.83254755096604,
+          95.12516391547123,
+          21.608932122651595,
+          0.0,
+          36.48563021957732,
+          39.531492956808066,
+          14.338205712348172,
+          52.84268032911105
+        ],
+        "max_rewards": [
+          0.29924941149063544,
+          0.0,
+          0.4070063261645725,
+          0.8365948373526172,
+          0.500229700928345,
+          0.0,
+          0.4201007860687315,
+          0.58141051050445,
+          0.4872645482121204,
+          0.5841702088344095
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "video_paths": [
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_0.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_1.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_2.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_3.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_4.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_5.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_6.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_7.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_8.mp4",
+          "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_9.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "pusht": {
+      "avg_sum_reward": 32.49494386200819,
+      "avg_max_reward": 0.4116026329555881,
+      "pc_success": 0.0,
+      "n_episodes": 10,
+      "video_paths": [
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_0.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_1.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_2.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_3.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_4.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_5.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_6.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_7.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_8.mp4",
+        "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_9.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 32.49494386200819,
+    "avg_max_reward": 0.4116026329555881,
+    "pc_success": 0.0,
+    "n_episodes": 10,
+    "eval_s": 26.47247338294983,
+    "eval_ep_s": 2.647247338294983,
+    "video_paths": [
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_0.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_1.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_2.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_3.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_4.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_5.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_6.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_7.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_8.mp4",
+      "team_research\\results\\eval\\smolvla_baseline_35k\\videos\\pusht_0\\eval_episode_9.mp4"
+    ]
+  }
+}
