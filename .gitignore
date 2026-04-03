@@ -177,3 +177,9 @@ outputs/
 *.urdf
 *.xml
 *.part
+
+# Team research artifacts (large files)
+team_research/results/train/**/checkpoints/
+team_research/results/train/**/checkpoints/**
+team_research/results/eval/**/videos/
+team_research/results/eval/**/videos/**
