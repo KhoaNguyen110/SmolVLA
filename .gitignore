@@ -179,7 +179,14 @@ outputs/
 *.part
 
 # Team research artifacts (large files)
-team_research/results/train/**/checkpoints/
-team_research/results/train/**/checkpoints/**
+# Ignore all train artifacts by default, then whitelist only JSON files
+# and checkpoint "last" folders for sharing.
+team_research/results/train/**
+!team_research/results/train/**/
+!team_research/results/train/**/*.json
+!team_research/results/train/**/checkpoints/last/
+!team_research/results/train/**/checkpoints/last/**
+
+# Ignore eval videos
 team_research/results/eval/**/videos/
 team_research/results/eval/**/videos/**
