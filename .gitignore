@@ -1,0 +1,17 @@
+# Model checkpoints (too large for GitHub)
+*/checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Wandb logs
+wandb/
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+
+# HuggingFace cache
+.cache/

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "dataset": "ganker5/so100_push_20250331",
+    "ablation_steps": 1200,
+    "batch_size": 32,
+    "seed": 42,
+    "baseline_loss": 0.4093720035586092,
+    "timestamp": "2026-05-01T09:06:00.077890"
+  },
+  "results": [
+    {
+      "name": "baseline_pushing",
+      "label": "Baseline (CA+SA, n=50, N=16)",
+      "category": "baseline",
+      "variable": "all",
+      "value": "default",
+      "test_loss": 0.4093720035586092,
+      "paper_sr": 85.5,
+      "is_baseline": true
+    },
+    {
+      "name": "ablation_B1_chunk10",
+      "label": "chunk=10",
+      "category": "chunk_size",
+      "variable": "chunk_size",
+      "value": "10",
+      "test_loss": 0.10291512086987495,
+      "paper_sr": 84.0,
+      "is_baseline": false
+    },
+    {
+      "name": "ablation_B3_chunk100",
+      "label": "chunk=100",
+      "category": "chunk_size",
+      "variable": "chunk_size",
+      "value": "100",
+      "test_loss": 0.08751429720885223,
+      "paper_sr": 74.5,
+      "is_baseline": false
+    },
+    {
+      "name": "ablation_C1_layers8",
+      "label": "N=8 (quarter)",
+      "category": "vlm_layers",
+      "variable": "num_vlm_layers",
+      "value": "8",
+      "test_loss": 0.08569873775045077,
+      "paper_sr": 75.0,
+      "is_baseline": false
+    },
+    {
+      "name": "ablation_C3_layers24",
+      "label": "N=24 (3/4)",
+      "category": "vlm_layers",
+      "variable": "num_vlm_layers",
+      "value": "24",
+      "test_loss": 0.08386267989046044,
+      "paper_sr": 79.5,
+      "is_baseline": false
+    }
+  ]
+}

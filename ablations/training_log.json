@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ablation_A1_CA_only",
+    "status": "ok",
+    "elapsed_min": 28.765864551067352,
+    "checkpoint": "/home/ubuntu/smolvla_mini/ablations/ablation_A1_CA_only/checkpoints/last/pretrained_model"
+  },
+  {
+    "name": "ablation_A2_SA_only",
+    "status": "ok",
+    "elapsed_min": 28.80814560651779,
+    "checkpoint": "/home/ubuntu/smolvla_mini/ablations/ablation_A2_SA_only/checkpoints/last/pretrained_model"
+  },
+  {
+    "name": "ablation_B1_chunk10",
+    "status": "ok",
+    "elapsed_min": 29.20127942562103,
+    "checkpoint": "/home/ubuntu/smolvla_mini/ablations/ablation_B1_chunk10/checkpoints/last/pretrained_model"
+  },
+  {
+    "name": "ablation_B3_chunk100",
+    "status": "ok",
+    "elapsed_min": 28.939776146411894,
+    "checkpoint": "/home/ubuntu/smolvla_mini/ablations/ablation_B3_chunk100/checkpoints/last/pretrained_model"
+  },
+  {
+    "name": "ablation_C1_layers8",
+    "status": "ok",
+    "elapsed_min": 25.21083575487137,
+    "checkpoint": "/home/ubuntu/smolvla_mini/ablations/ablation_C1_layers8/checkpoints/last/pretrained_model"
+  },
+  {
+    "name": "ablation_C3_layers24",
+    "status": "ok",
+    "elapsed_min": 32.76239809989929,
+    "checkpoint": "/home/ubuntu/smolvla_mini/ablations/ablation_C3_layers24/checkpoints/last/pretrained_model"
+  }
+]

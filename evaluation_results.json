@@ -1,0 +1,41 @@
+{
+  "pushing": {
+    "category": "pushing",
+    "repo_id": "ganker5/so100_push_20250331",
+    "checkpoint_path": "/home/ubuntu/smolvla_mini/pushing/checkpoints/last/pretrained_model",
+    "n_test_episodes": 12,
+    "n_test_frames": 7189,
+    "n_evaluated": 450,
+    "n_skipped": 0,
+    "mean_loss": 0.4093720035586092,
+    "std_loss": 0.2614837436321567,
+    "min_loss": 0.07590951025485992,
+    "max_loss": 1.9550327062606812
+  },
+  "pick_and_place": {
+    "category": "pick_and_place",
+    "repo_id": "SeanLMH/so100_picknplace_v2",
+    "checkpoint_path": "/home/ubuntu/smolvla_mini/pick_and_place/checkpoints/last/pretrained_model",
+    "n_test_episodes": 41,
+    "n_test_frames": 14049,
+    "n_evaluated": 879,
+    "n_skipped": 0,
+    "mean_loss": 0.6190666369458108,
+    "std_loss": 0.34415173795874676,
+    "min_loss": 0.08333789557218552,
+    "max_loss": 1.964982032775879
+  },
+  "insertion": {
+    "category": "insertion",
+    "repo_id": "samsam0510/tape_insert_1",
+    "checkpoint_path": "/home/ubuntu/smolvla_mini/insertion/checkpoints/last/pretrained_model",
+    "n_test_episodes": 20,
+    "n_test_frames": 6752,
+    "n_evaluated": 422,
+    "n_skipped": 0,
+    "mean_loss": 0.41620900847406184,
+    "std_loss": 0.125810174974949,
+    "min_loss": 0.1160702183842659,
+    "max_loss": 0.884572446346283
+  }
+}
