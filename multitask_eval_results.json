@@ -1,0 +1,24 @@
+{
+  "pushing": {
+    "task": "pushing",
+    "n_test_episodes": 12,
+    "n_test_frames": 7189,
+    "n_evaluated": 450,
+    "n_skipped": 0,
+    "mean_loss": 0.16711266178223821,
+    "std_loss": 0.0622071700937426,
+    "min_loss": 0.06395413726568222,
+    "max_loss": 0.4779396951198578
+  },
+  "insertion": {
+    "task": "insertion",
+    "n_test_episodes": 20,
+    "n_test_frames": 6752,
+    "n_evaluated": 422,
+    "n_skipped": 0,
+    "mean_loss": 0.3601837136486978,
+    "std_loss": 0.12453745633407716,
+    "min_loss": 0.11015327274799347,
+    "max_loss": 0.7712329030036926
+  }
+}
